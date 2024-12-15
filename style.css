@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;    /* Center vertically */
+  height: 100vh;          /* Full viewport height */
+  margin: 0;              /* Remove default body margin */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* Optional background */
+  color: white;
+}
+
+/* Custom styles for input fields */
+.styled-input {
+    background-color: #333; /* Dark inner background */
+    color: #fff;           /* White text */
+    border: 1px solid #555; /* Subtle border color */
+    padding: 10px 15px;    /* Add extra padding */
+    border-radius: 8px;    /* Round the corners */
+}
+
+          /* Placeholder text style */
+          .styled-input::placeholder {
+            color: #aaa;           /* Subtle placeholder color */
+            font-style: italic;    /* Make placeholder text italic */
+        }
+
+/* Focus effect */
+.styled-input:focus {
+    border-color: #f4d03f; /* Yellow border on focus */
+    box-shadow: 0 0 5px #f4d03f; /* Yellow glow */
+    outline: none;          /* Remove default outline */
+}
